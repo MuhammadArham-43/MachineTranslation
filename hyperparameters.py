@@ -1,0 +1,13 @@
+import torch
+
+EMBEDDING_SIZE = 512
+NUM_HEADS = 8
+NUM_ENCODER_LAYERS = 6
+NUM_DECODER_LAYERS = 6
+DROPOUT = 0.10
+MAX_SEQ_LEN = 100
+
+BATCH_SIZE = 64
+DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
+NUM_EPOCHS = 20
+LEARNING_RATE = 1e-4

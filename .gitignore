@@ -1,0 +1,5 @@
+.data/*
+.vscode/*
+runs/*
+runs_torch/*
+**/__pycache__/*
